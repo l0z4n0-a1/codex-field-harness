@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-09-25T13:11:11.107830+00:00",
+  "catalog_fetched_at": "2026-09-25T13:10:26.981960600Z",
+  "catalog_client_version": "0.155.0",
+  "app_core_version": "0.155.0-alpha.16.4",
+  "visibility_rule": "only visibility=list may resolve; catalog visibility is not account entitlement",
+  "service_tier_rule": "priority is a service tier, never a model_id",
+  "routes": [
+    {
+      "name": "global",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-sol",
+      "effort": "high",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "auditoria",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-astra",
+      "effort": "xhigh",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\auditoria.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "codigo",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-astra",
+      "effort": "medium",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\codigo.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "dissenso",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-astra",
+      "effort": "high",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\dissenso.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "harness-readonly",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-sol",
+      "effort": "high",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\harness-readonly.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "harness-workspace",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-6-sol",
+      "effort": "high",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\harness-workspace.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    },
+    {
+      "name": "mecanico",
+      "surface": "codex_cli",
+      "executable": "PATH cli",
+      "version": "0.153.4",
+      "model_id": "gpt-5.6-luna",
+      "effort": "low",
+      "service_tier": "default",
+      "source": "$CODEX_HOME\\mecanico.config.toml",
+      "observed_at": "2026-09-25T13:11:11.107830+00:00",
+      "status": "configured_not_benchmarked",
+      "fallback": "global",
+      "escalation_trigger": "critical quality failure; diagnose before one targeted retest"
+    }
+  ],
+  "hidden_model_ids": [
+    "gpt-reserve",
+    "codex-auto-review"
+  ],
+  "promotion": {
+    "state": "baseline",
+    "reason": "no paired accepted-result comparison",
+    "experiments_enabled": false
+  }
+}

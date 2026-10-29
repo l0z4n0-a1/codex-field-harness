@@ -1,0 +1,61 @@
+{
+  "release_id": "20260925T1516Z-core-candidate-v2",
+  "recorded_at_utc": "2026-09-25T15:17:42.117200+00:00",
+  "state": "candidate_active_core_longitudinal_pending",
+  "predecessor": "20260925T1420Z-core-candidate",
+  "production_validated": false,
+  "active_defaults": {
+    "model": "gpt-6-sol",
+    "effort": "high",
+    "sandbox": "danger-full-access"
+  },
+  "routing_promotion": "none; seven baseline routes retained",
+  "verified_local": {
+    "active_paths_before_this_receipt": 65,
+    "unit_tests": 20,
+    "structural_negative_controls": 18,
+    "deterministic_cases": [
+      "E01",
+      "E02",
+      "E05"
+    ],
+    "scope_layers": 3,
+    "sandbox_canaries": 2,
+    "h04_saved_streams_reprocessed": 5,
+    "sanitized_cli_runs": 11,
+    "corrected_canaries": {
+      "E08_v1_1": "pass_bounded_text_and_state",
+      "E04_contract_v2": "pass_bounded_text_and_state",
+      "E03_actor_aware_v2": "pass_bounded_source_grounded",
+      "human_review": "pending"
+    }
+  },
+  "historical_failures_preserved": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ],
+  "bounded_canary_evidence": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ],
+  "observation": {
+    "state": "pending_observation",
+    "eligible_real_tasks": 0,
+    "required_gate": "ten eligible real tasks or the proposed two-week observation window",
+    "synthetic_cli_runs_excluded": 11,
+    "next_action": "record eligible real-task acceptance and total cost as ordinary work occurs; do not manufacture tasks or wait in a loop"
+  },
+  "pending": [
+    "human review of synthetic source/text results",
+    "MUSE tools not exposed in current app session; direct operational MCP passed",
+    "H07 matched route comparison below promotion gate; no numeric expanded ceiling",
+    "H13/H14 optional live experiments not promoted"
+  ],
+  "rollback": {
+    "manifest": "<local-path>",
+    "preflight": "python rollback.py check-rollback",
+    "execute": "python rollback.py rollback"
+  }
+}

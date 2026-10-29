@@ -1,0 +1,106 @@
+{
+  "release_id": "20260925T1627Z-core-candidate-v7",
+  "recorded_at_utc": "2026-09-25T16:28:05.914348+00:00",
+  "state": "candidate_active_core_longitudinal_pending",
+  "predecessor": "20260925T1605Z-core-candidate-v6",
+  "production_validated": false,
+  "active_defaults": {
+    "model": "gpt-6-sol",
+    "effort": "high",
+    "sandbox": "danger-full-access"
+  },
+  "routing_promotion": "none; seven baseline routes retained",
+  "verified_local": {
+    "active_paths_before_this_receipt": 73,
+    "unit_tests": 27,
+    "structural_negative_controls": 18,
+    "deterministic_cases": [
+      "E01",
+      "E02",
+      "E05"
+    ],
+    "scope_layers": 3,
+    "sandbox_canaries": 2,
+    "h04_saved_streams_reprocessed": 5,
+    "sanitized_cli_runs": 11,
+    "corrected_canaries": {
+      "E08_v1_1": "pass_bounded_text_and_state",
+      "E04_contract_v2": "pass_bounded_text_and_state",
+      "E03_actor_aware_v2": "pass_bounded_source_grounded",
+      "human_review": "pending"
+    },
+    "h06_exact_line_range": "unit_and_cli_pass; billed_token_benefit_unmeasured",
+    "prism_marketplace_cli": "installed_enabled_from_relocated_source",
+    "h12_worktree_owners_reconciled": 3,
+    "h15_observer": "active; five tests pass; release-scoped; no real tasks recorded",
+    "e07_literal_argv": "fake_provider_round_trip_pass; no external provider"
+  },
+  "historical_failures_preserved": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ],
+  "bounded_canary_evidence": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ],
+  "observation": {
+    "state": "instrumented_pending_real_tasks",
+    "eligible_real_tasks": 0,
+    "required_gate": "ten eligible real tasks or the proposed two-week observation window",
+    "synthetic_cli_runs_excluded": 11,
+    "next_action": "record ordinary real tasks against v7; review acceptance and total cost after gate",
+    "instrumentation": "<local-path>",
+    "operational_ledger": "<local-path>"
+  },
+  "pending": [
+    "real-task acceptance and total-cost observation; synthetic cases diagnostic only",
+    "MUSE tools not exposed in current app session; direct operational MCP passed",
+    "H07 matched route comparison below promotion gate; no numeric expanded ceiling",
+    "H13/H14 optional live experiments not promoted"
+  ],
+  "rollback": {
+    "manifest": "<local-path>",
+    "preflight": "python rollback.py check-rollback",
+    "execute": "python rollback.py rollback"
+  },
+  "h05_user_review": "representativeness_not_approved; user requested agnostic real-task efficiency",
+  "context_metadata": {
+    "prompt_input_text_characters": 24919,
+    "skill_section_characters": 10035,
+    "temporary_plugin_override_delta_characters": 0,
+    "billed_tokens_or_savings": null,
+    "evidence": "<local-path>"
+  },
+  "marketplace_repair": {
+    "source_after": "<local-path>",
+    "config_after_sha256": "e1323db816ffc862376c877492ccd5179c3c065de949d6ca447c29a16716d0de",
+    "cli_plugin_list": {
+      "name": "site-alchemy",
+      "pluginId": "site-alchemy@prism-local",
+      "enabled": true,
+      "installed": true,
+      "marketplaceName": "prism-local",
+      "version": "0.1.0"
+    },
+    "app_session_reload_verified": false,
+    "evidence": "<local-path>"
+  },
+  "metadata_corrected_at_utc": "2026-09-25T15:42:44.973429+00:00",
+  "h12_worktrees": {
+    "owner_threads_reconciled": 3,
+    "dirty_worktrees_retained": 2,
+    "clean_worktrees_retained": 1,
+    "integration_proven": false,
+    "evidence": "<local-path>"
+  },
+  "changelog_sha256": "0ad5f1be0344de5f8e7d63af1657e4562de3be52b7ce050018c959d06ee83480",
+  "manifest_entries_before_this_receipt": 119,
+  "post_v6_evidence": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ]
+}

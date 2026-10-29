@@ -1,0 +1,7 @@
+{
+  "global_applies": true,
+  "root_applies_within_project": true,
+  "subdir_applies_only_within_subdir": true,
+  "user_request_remains_authoritative": true,
+  "inactive_skill_does_not_add_instructions": true
+}

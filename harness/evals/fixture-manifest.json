@@ -1,0 +1,28 @@
+{
+  "version": "1.1",
+  "files": {
+    "cases\\E01\\input.json": "89df230e770893966d028777a47bd53175262ecec5eeb76a00091ecdbf17978a",
+    "cases\\E02\\discount.py": "7a08bb3fffbee17acdd1ee4ef2e549b1e9aea0462eebdddb95a63f7cdcf96d33",
+    "cases\\E02\\test_discount.py": "7baaeb1d90cfc3e283f6988a2aafc6c31bfe0bdc2c90f70736efe7f0b12f1d3d",
+    "cases\\E03\\brief.json": "066d63eef29519f718ed6369d73878871a68488afa3bf9c41aecf157e1bab0ea",
+    "cases\\E03\\sources.json": "fe287ce8a4593081774834e9ba92f997afb62cbcd0ba4121cf739889284ef2d0",
+    "cases\\E04\\input.json": "6742b1bbae7f13ffee48de43992a4568b2a6f5acbbde075aa4684aaa79ffb1a4",
+    "cases\\E05\\input.json": "fb23f8d4a2208e888b31b4bcd67620c99fe0ab444d8d508353f378716e125f12",
+    "cases\\E06\\input.json": "3fcc3a212cd6f2bbbd498d6162e8d8f08614ef50227a1c432fbfd7d385880c13",
+    "cases\\E07\\scenarios.json": "cfee2157de4effd88ff0230e6aab0d3a0e2280cfe1ed79d9c7e719458c0ff776",
+    "cases\\E08\\input.json": "d4c479d6fb3f29cdd5f1cff3fa385d1c9726470a2902295387635ed6bf4d340b",
+    "oracles\\E01.json": "02b39c0926d0b55a61d13075ca8ec57053058a3f846c105ea7173d70114686c6",
+    "oracles\\E02.json": "8f27aa9775c91f97d0db704a36c090bc1b8bff2aa961e113207b71739688ca27",
+    "oracles\\E03.json": "2c9890876673dd1c20da5396cbc1f872c3b3dde775f2862d725b8b29778aee11",
+    "oracles\\E04.json": "26bf98b57296fce9b800852d90f10dbf9364ba13e9491ba683b737ffb5ee564d",
+    "oracles\\E05.json": "1f3bebf4b8c9eec3a5893cc307a68498682d7a3158f37d39450ee31c25cdef22",
+    "oracles\\E06.json": "bb5373de88aceae2a6814c708db810480e3ec1a5455da7bfb2d5f4447e58ea90",
+    "oracles\\E07.json": "41b18d6d33a276f1cb227b08286932980596f668dfaea27fb45a4560f9db8994",
+    "oracles\\E08.json": "791471d8f3dcc26dc41066b51d4a9ae5b4e673f9623fe4afe53032c6e456d4ea",
+    "rubrics.json": "2d8d033d20787dc919204d03f96a6250cb4c1be2b258f8d66651878318652502"
+  },
+  "oracle_separation": "executor receives cases/ only",
+  "revisions": {
+    "E08": "1.1: action and owner reference made explicit"
+  }
+}

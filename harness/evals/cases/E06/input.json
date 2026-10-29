@@ -1,0 +1,16 @@
+{
+  "objective": "preserve task continuity",
+  "exclusions": [
+    "no external upload"
+  ],
+  "input_hash": "sha256:fixture",
+  "base": "v1",
+  "owner": "coordinator",
+  "active_decision": "use state file",
+  "revoked_decision": "use implicit memory",
+  "data_constraint": "synthetic only",
+  "artifact": "result.json",
+  "gate": "12/12 facts",
+  "blocker": "none",
+  "next_action": "verify hashes"
+}

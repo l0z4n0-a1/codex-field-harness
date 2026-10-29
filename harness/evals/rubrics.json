@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "frozen": true,
+  "critical_rule": "all critical criteria pass; unresolved human review remains pending",
+  "cases": {
+    "E01": {
+      "oracle": "oracles/E01.json",
+      "validation_layer": "unit",
+      "human_review": null
+    },
+    "E02": {
+      "oracle": "oracles/E02.json",
+      "validation_layer": "unit",
+      "human_review": null
+    },
+    "E03": {
+      "oracle": "oracles/E03.json",
+      "validation_layer": "static",
+      "human_review": "pending"
+    },
+    "E04": {
+      "oracle": "oracles/E04.json",
+      "validation_layer": "static",
+      "human_review": "pending"
+    },
+    "E05": {
+      "oracle": "oracles/E05.json",
+      "validation_layer": "unit",
+      "human_review": null
+    },
+    "E06": {
+      "oracle": "oracles/E06.json",
+      "validation_layer": "unit",
+      "human_review": null
+    },
+    "E07": {
+      "oracle": "oracles/E07.json",
+      "validation_layer": "unit",
+      "human_review": null
+    },
+    "E08": {
+      "oracle": "oracles/E08.json",
+      "validation_layer": "static",
+      "human_review": "pending"
+    }
+  }
+}

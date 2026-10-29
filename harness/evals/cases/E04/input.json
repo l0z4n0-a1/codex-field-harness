@@ -1,0 +1,21 @@
+{
+  "persona": {
+    "id": "P01",
+    "registry": "A",
+    "adult": true,
+    "voice": "calm, practical"
+  },
+  "campaign": {
+    "registry": "B",
+    "persona_reference": "A:P01",
+    "product": "synthetic wellness tea",
+    "health_claim_proof": null,
+    "offer": "single sample box",
+    "request": "brief 3 static text-only pieces"
+  },
+  "muse_tools_available": false,
+  "prepare_response": {
+    "status": "READY",
+    "artifact_path": null
+  }
+}

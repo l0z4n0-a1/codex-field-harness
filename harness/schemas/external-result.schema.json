@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["run_id", "status", "artifacts", "usage", "limitations"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "status": {"enum": ["success", "failed", "partial", "canceled", "unknown"]},
+    "artifacts": {"type": "array"},
+    "usage": {"type": ["object", "null"]},
+    "limitations": {"type": "array"}
+  }
+}

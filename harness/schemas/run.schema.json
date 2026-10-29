@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "run_id", "task_id", "attempt_id", "status", "input_tokens", "cached_input_tokens_included_in_input", "output_tokens", "monetary_cost", "accepted_result"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["success", "failed", "partial", "canceled", "unknown"]},
+    "model_resolved": {"type": ["string", "null"]},
+    "input_tokens": {"type": ["integer", "null"], "minimum": 0},
+    "cached_input_tokens_included_in_input": {"type": ["integer", "null"], "minimum": 0},
+    "output_tokens": {"type": ["integer", "null"], "minimum": 0},
+    "reasoning_tokens_included_in_output": {"type": ["integer", "null"], "minimum": 0},
+    "monetary_cost": {"type": ["number", "null"], "minimum": 0},
+    "accepted_result": {"type": ["boolean", "null"]},
+    "human_approval": {"type": ["boolean", "null"]}
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "observed_at": "2026-09-25T12:55:57.131963+00:00",
+  "codex_home": "$CODEX_HOME",
+  "source_package": {
+    "00-leia-primeiro.md": {
+      "sha256": "356bfdac76936197fafb4286393b2e73fefe9883b302a1ff9c83c9877f57b0bd",
+      "matches_payload": true
+    },
+    "01-inventario-e-achados.md": {
+      "sha256": "f3a7623baf453d0ffa5aed74090bd0de5eb5eed9a94a37dc7702c0162896bb19",
+      "matches_payload": true
+    },
+    "02-pesquisa-e-evidencias.md": {
+      "sha256": "c83b3b6cf7afea9da0794c960950645215618b476d966e9d44fbb8136f18d32c",
+      "matches_payload": true
+    },
+    "03-arquitetura-e-roteamento.md": {
+      "sha256": "74f554090781644df349ac9cb93e2bc5a71b4efdd4acde365df1a3e83ac1e936",
+      "matches_payload": true
+    },
+    "04-backlog.md": {
+      "sha256": "6906715c23148847e8b18142a6e93d394efe902b1435b2520d8886c6d9ed5983",
+      "matches_payload": true
+    },
+    "05-avaliacao-e-rollout.md": {
+      "sha256": "b5cfdd10d4c8359ee5dfeb74dcd52904283c74b69fab329a4d38fc8b50d5b3f7",
+      "matches_payload": true
+    }
+  },
+  "surfaces": {
+    "path_cli": {
+      "command": [
+        "~\\AppData\\Roaming\\npm\\codex.CMD",
+        "--version"
+      ],
+      "result": "codex-cli 0.153.4"
+    },
+    "app_core": {
+      "command": [
+        "~\\AppData\\Local\\OpenAI\\Codex\\bin\\13995fba801849b0\\codex.exe",
+        "--version"
+      ],
+      "result": "codex-cli 0.155.0-alpha.16.4"
+    }
+  },
+  "effective_global_user_config": {
+    "model": "gpt-6-sol",
+    "model_reasoning_effort": "high",
+    "service_tier": "default",
+    "sandbox_mode": "danger-full-access",
+    "approval_policy": null
+  },
+  "profiles": {
+    "auditoria.config": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "xhigh",
+      "sandbox_mode": null
+    },
+    "codigo.config": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "medium",
+      "sandbox_mode": null
+    },
+    "dissenso.config": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "high",
+      "sandbox_mode": null
+    },
+    "mecanico.config": {
+      "model": "gpt-5.6-luna",
+      "model_reasoning_effort": "low",
+      "sandbox_mode": null
+    }
+  },
+  "files": [
+    {
+      "path": "$CODEX_HOME\\config.toml",
+      "sha256": "1e7a963af7d8a5144d3a94b985dfd93eee80a9941f69f0fd815e570113d47364",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\config.toml",
+      "backup_sha256": "1e7a963af7d8a5144d3a94b985dfd93eee80a9941f69f0fd815e570113d47364"
+    },
+    {
+      "path": "$CODEX_HOME\\AGENTS.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\AGENTS.md",
+      "backup_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "$CODEX_HOME\\auditoria.config.toml",
+      "sha256": "f49d519550df1c71761420a5e469a71fc0625bccf240bdf5cfa490a2d38e54ab",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\auditoria.config.toml",
+      "backup_sha256": "f49d519550df1c71761420a5e469a71fc0625bccf240bdf5cfa490a2d38e54ab"
+    },
+    {
+      "path": "$CODEX_HOME\\codigo.config.toml",
+      "sha256": "8c21af59cc82cb24f3a1c9050dc1d09390bdec519a91ec7c5554025e7f3a6d35",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\codigo.config.toml",
+      "backup_sha256": "8c21af59cc82cb24f3a1c9050dc1d09390bdec519a91ec7c5554025e7f3a6d35"
+    },
+    {
+      "path": "$CODEX_HOME\\dissenso.config.toml",
+      "sha256": "235549fc6a34027394726dd9d4c2732d39bf2c31112da95eb143b88cc5e57065",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\dissenso.config.toml",
+      "backup_sha256": "235549fc6a34027394726dd9d4c2732d39bf2c31112da95eb143b88cc5e57065"
+    },
+    {
+      "path": "$CODEX_HOME\\mecanico.config.toml",
+      "sha256": "184002deae91794e312e6658c2d22e3d54107c175342e2f4a23c8d21595f10cd",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\mecanico.config.toml",
+      "backup_sha256": "184002deae91794e312e6658c2d22e3d54107c175342e2f4a23c8d21595f10cd"
+    },
+    {
+      "path": "$CODEX_HOME\\rules\\default.rules",
+      "sha256": "3be0ad592783a9ea871da433cb7dd55a477a3beb5773f398a5e03694b876882f",
+      "backup": "$CODEX_HOME\\harness\\baselines\\20260925T125556Z\\rules\\default.rules",
+      "backup_sha256": "3be0ad592783a9ea871da433cb7dd55a477a3beb5773f398a5e03694b876882f"
+    }
+  ],
+  "unknown_layers": [
+    "active task model/effort may differ from global config",
+    "managed/system settings",
+    "connector authentication",
+    "actual monetary cost"
+  ],
+  "backup_policy": "allowlisted text only; no auth, history, sessions, persona databases, or home snapshot"
+}

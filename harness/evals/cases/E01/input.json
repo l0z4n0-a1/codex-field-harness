@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "id": "A",
+      "updated_at": "2026-01-01",
+      "email": "a@exemplo.test",
+      "amount": "10.10"
+    },
+    {
+      "id": "B",
+      "updated_at": "2026-01-02",
+      "email": "",
+      "amount": "0"
+    },
+    {
+      "id": "C",
+      "updated_at": "2026-01-03",
+      "email": "c@exemplo.test",
+      "amount": "3.35"
+    },
+    {
+      "id": "A",
+      "updated_at": "2026-01-04",
+      "email": "a2@exemplo.test",
+      "amount": "10.10"
+    },
+    {
+      "id": "D",
+      "updated_at": "2026-01-02",
+      "email": "d@exemplo.test",
+      "amount": "3.35"
+    },
+    {
+      "id": "E",
+      "updated_at": "2026-01-03",
+      "email": "e@exemplo.test",
+      "amount": "0"
+    },
+    {
+      "id": "F",
+      "updated_at": "2026-01-04",
+      "email": "f@exemplo.test",
+      "amount": "10.10"
+    },
+    {
+      "id": "B",
+      "updated_at": "2026-01-05",
+      "email": "",
+      "amount": "3.35"
+    },
+    {
+      "id": "G",
+      "updated_at": "2026-01-06",
+      "email": "g@exemplo.test",
+      "amount": "0"
+    },
+    {
+      "id": "H",
+      "updated_at": "2026-01-07",
+      "email": "h@exemplo.test",
+      "amount": "10.10"
+    },
+    {
+      "id": "C",
+      "updated_at": "2026-01-03",
+      "email": "c2@exemplo.test",
+      "amount": "3.35"
+    },
+    {
+      "id": "I",
+      "updated_at": "2026-01-08",
+      "email": "i@exemplo.test",
+      "amount": "0"
+    }
+  ],
+  "rule": "deduplicate by id, latest ISO date wins; same date last input position wins; preserve empty email; amounts are decimal strings with dot; reject comma decimal"
+}

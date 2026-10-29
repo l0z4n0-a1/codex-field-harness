@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "process tree cancelled",
+    "no auth/quota retry",
+    "transient retry <=1",
+    "stale artifact rejected",
+    "partial != success",
+    "literal argv unchanged",
+    "no uncertain effect retry"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "release_id": "20260925T1420Z-core-candidate",
+  "recorded_at_utc": "2026-09-25T14:21:14.507807+00:00",
+  "state": "candidate_active_core_quality_gate_failed",
+  "active_defaults": {
+    "model": "gpt-6-sol",
+    "effort": "high",
+    "sandbox": "danger-full-access"
+  },
+  "routing_promotion": "none; seven baseline routes retained",
+  "verified_local": {
+    "unit_tests": 20,
+    "structural_negative_controls": 18,
+    "deterministic_cases": [
+      "E01",
+      "E02",
+      "E05"
+    ],
+    "scope_layers": 3,
+    "sandbox_canaries": 2,
+    "h04_saved_streams_reprocessed": 5
+  },
+  "pending": [
+    "E03/E04/E08 independent factual or human review",
+    "H07 three matched paired repeats and supported benefit before route promotion",
+    "H15 ten eligible tasks or the proposed observation window",
+    "E03 canary quality-floor failure must be resolved before promotion"
+  ],
+  "evidence": [
+    "<local-path>",
+    "<local-path>",
+    "<local-path>",
+    "<local-path>"
+  ],
+  "rollback": {
+    "manifest": "<local-path>",
+    "preflight": "python rollback.py check-rollback",
+    "execute": "python rollback.py rollback"
+  },
+  "production_validated": false,
+  "revised_at_utc": "2026-09-25T14:41:10.650809+00:00",
+  "e03_canary": {
+    "accepted_result": false,
+    "quality_floor": "fail_unverified_execution_claim",
+    "evidence": "<local-path>",
+    "input_tokens": 156342,
+    "next_action": "diagnose source-open trace and input cost before targeted retest",
+    "structural_gate": "fail_source_access"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "revision", "facts", "inputs", "decisions", "next_action"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "revision": {"type": "integer", "minimum": 1},
+    "facts": {"type": "object", "required": ["objective", "exclusions", "input_hash", "base", "owner", "active_decision", "revoked_decision", "data_constraint", "artifact", "gate", "blocker", "next_action"]},
+    "inputs": {"type": "array", "items": {"type": "object", "required": ["path", "revision"]}},
+    "decisions": {"type": "array"},
+    "next_action": {"type": "string"}
+  }
+}

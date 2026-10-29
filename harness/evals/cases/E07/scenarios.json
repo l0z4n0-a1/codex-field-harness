@@ -1,0 +1,16 @@
+{
+  "scenarios": [
+    "valid",
+    "malformed_json",
+    "timeout_with_child",
+    "auth_error",
+    "quota_error",
+    "partial_exit_zero",
+    "stale_artifact",
+    "tool_denied",
+    "transient_retry",
+    "uncertain_side_effect",
+    "literal_argv"
+  ],
+  "literal": "a'\"`$(Get-Secret) b"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Choose Markdown files or a vector database for 40 synthetic documents updated weekly; no demonstrated semantic search demand. Cite source manifest, explain tradeoffs and unavailable source.",
+  "documents": 40,
+  "update_frequency": "weekly",
+  "semantic_search_demand": "unproven",
+  "deliberately_obsolete_claim": "A 2021 note says embeddings are always required",
+  "unavailable_url": "https://example.invalid/unavailable"
+}

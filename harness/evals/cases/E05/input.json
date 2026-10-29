@@ -1,0 +1,12 @@
+{
+  "unit": "BRL synthetic",
+  "monthly_revenue": "12000",
+  "costs": {
+    "media": "3000",
+    "software": "800",
+    "production": "2200",
+    "other": "1000"
+  },
+  "scenario_revenue_change": "0.20",
+  "scenario_costs_fixed": true
+}

@@ -1,0 +1,286 @@
+{
+  "observed_at": "2026-09-25T13:47:33.871468+00:00",
+  "enabled_plugins": {
+    "site-alchemy@prism-local": true,
+    "visualize@openai-bundled": true,
+    "documents@openai-primary-runtime": true,
+    "pdf@openai-primary-runtime": true,
+    "spreadsheets@openai-primary-runtime": true,
+    "presentations@openai-primary-runtime": true,
+    "template-creator@openai-primary-runtime": true,
+    "browser@openai-bundled": true,
+    "codex-app-tools@openai-bundled": true,
+    "ugc-ai-native-agency@personal": true,
+    "unified-computer-use@openai-bundled": true,
+    "computer-use@openai-bundled": true,
+    "persona-foundry@personal": true
+  },
+  "catalogued_skill_files": 26,
+  "rows": [
+    {
+      "plugin": "computer-use@openai-bundled",
+      "version": "26.917.71314",
+      "skill": "computer-use",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-bundled\\computer-use\\26.917.71314\\skills\\computer-use\\SKILL.md",
+      "frontmatter_characters": 67,
+      "body_characters": 1414,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "documents@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "documents",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\documents\\26.905.11957\\skills\\documents\\SKILL.md",
+      "frontmatter_characters": 344,
+      "body_characters": 40166,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "pdf@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "pdf",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\pdf\\26.905.11957\\skills\\pdf\\SKILL.md",
+      "frontmatter_characters": 251,
+      "body_characters": 6868,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "audit-and-learn",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\audit-and-learn\\SKILL.md",
+      "frontmatter_characters": 198,
+      "body_characters": 3347,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "calibrate-identity",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\calibrate-identity\\SKILL.md",
+      "frontmatter_characters": 181,
+      "body_characters": 2692,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "create-content",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\create-content\\SKILL.md",
+      "frontmatter_characters": 183,
+      "body_characters": 4972,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "create-influencer",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\create-influencer\\SKILL.md",
+      "frontmatter_characters": 157,
+      "body_characters": 5762,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "generation-lab",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\generation-lab\\SKILL.md",
+      "frontmatter_characters": 206,
+      "body_characters": 2332,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "manage-continuity",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\manage-continuity\\SKILL.md",
+      "frontmatter_characters": 173,
+      "body_characters": 1854,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "manage-portfolio",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\manage-portfolio\\SKILL.md",
+      "frontmatter_characters": 184,
+      "body_characters": 2310,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "manage-series",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\manage-series\\SKILL.md",
+      "frontmatter_characters": 182,
+      "body_characters": 2130,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "manage-universe",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\manage-universe\\SKILL.md",
+      "frontmatter_characters": 189,
+      "body_characters": 2289,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "operate-ugc",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\operate-ugc\\SKILL.md",
+      "frontmatter_characters": 168,
+      "body_characters": 14470,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "persona-foundry@personal",
+      "version": "0.7.4+codex.20260925132638",
+      "skill": "prepare-provider-handoff",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\persona-foundry\\0.7.4+codex.20260925132638\\skills\\prepare-provider-handoff\\SKILL.md",
+      "frontmatter_characters": 177,
+      "body_characters": 4363,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "presentations@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "Presentations",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\presentations\\26.905.11957\\skills\\presentations\\SKILL.md",
+      "frontmatter_characters": 174,
+      "body_characters": 27181,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "site-alchemy@prism-local",
+      "version": "0.1.0",
+      "skill": "site-alchemy",
+      "path": "$CODEX_HOME\\plugins\\cache\\prism-local\\site-alchemy\\0.1.0\\skills\\site-alchemy\\SKILL.md",
+      "frontmatter_characters": 350,
+      "body_characters": 2564,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "spreadsheets@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "Spreadsheets",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.905.11957\\skills\\spreadsheets\\SKILL.md",
+      "frontmatter_characters": 326,
+      "body_characters": 63518,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "spreadsheets@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "excel-live-control",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.905.11957\\skills\\excel-live-control\\SKILL.md",
+      "frontmatter_characters": 310,
+      "body_characters": 71226,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "template-creator@openai-primary-runtime",
+      "version": "26.905.11957",
+      "skill": "template-creator",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-primary-runtime\\template-creator\\26.905.11957\\skills\\template-creator\\SKILL.md",
+      "frontmatter_characters": 501,
+      "body_characters": 18533,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "agency-ceo",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\agency-ceo\\SKILL.md",
+      "frontmatter_characters": 314,
+      "body_characters": 9551,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "agency-orchestrator",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\agency-orchestrator\\SKILL.md",
+      "frontmatter_characters": 215,
+      "body_characters": 5483,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "gemini-flow-playwright",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\gemini-flow-playwright\\SKILL.md",
+      "frontmatter_characters": 234,
+      "body_characters": 3097,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "muse-cockpit",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\muse-cockpit\\SKILL.md",
+      "frontmatter_characters": 168,
+      "body_characters": 3438,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "muse-operations",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\muse-operations\\SKILL.md",
+      "frontmatter_characters": 158,
+      "body_characters": 2995,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "ugc-ai-native-agency@personal",
+      "version": "0.2.0+codex.20260925132638",
+      "skill": "static-creative-studio",
+      "path": "$CODEX_HOME\\plugins\\cache\\personal\\ugc-ai-native-agency\\0.2.0+codex.20260925132638\\skills\\static-creative-studio\\SKILL.md",
+      "frontmatter_characters": 191,
+      "body_characters": 3344,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    },
+    {
+      "plugin": "visualize@openai-bundled",
+      "version": "1.0.39",
+      "skill": "visualize",
+      "path": "$CODEX_HOME\\plugins\\cache\\openai-bundled\\visualize\\1.0.39\\skills\\visualize\\SKILL.md",
+      "frontmatter_characters": 342,
+      "body_characters": 31702,
+      "usage_evidence": null,
+      "cleanup_decision": "unknown_until_user_usage_or_task_evidence"
+    }
+  ],
+  "limits": [
+    "cache may include versions not loaded by current app",
+    "metadata size is characters, not billed tokens",
+    "absence of usage evidence is not proof a skill is unused"
+  ]
+}

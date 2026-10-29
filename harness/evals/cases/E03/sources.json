@@ -1,0 +1,11 @@
+{
+  "accessed_at": "2026-09-25",
+  "urls": [
+    "https://docs.python.org/3/library/pathlib.html",
+    "https://www.sqlite.org/fts5.html",
+    "https://www.postgresql.org/docs/current/textsearch.html",
+    "https://platform.openai.com/docs/guides/embeddings",
+    "https://www.w3.org/TR/json-ld11/"
+  ],
+  "verification": "opened on 2026-09-25; official sources; frozen for this fixture version"
+}

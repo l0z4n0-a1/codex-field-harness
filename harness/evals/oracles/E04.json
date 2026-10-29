@@ -1,0 +1,11 @@
+{
+  "critical": [
+    "A owns existing P01 identity",
+    "B references A:P01",
+    "no health benefit asserted",
+    "three coherent text-only briefs",
+    "READY without file is preparation only",
+    "no generation, approval or publication claim",
+    "visual QA pending"
+  ]
+}

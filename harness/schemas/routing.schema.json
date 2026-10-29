@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "observed_at", "routes", "promotion"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "routes": {"type": "array", "items": {"type": "object", "required": ["surface", "executable", "version", "model_id", "effort", "source", "observed_at", "status"], "properties": {
+      "model_id": {"type": "string", "not": {"const": "priority"}},
+      "effort": {"enum": ["none", "minimal", "low", "medium", "high", "xhigh", "max", "ultra"]}
+    }}},
+    "promotion": {"type": "object"}
+  }
+}
