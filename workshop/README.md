@@ -1,5 +1,7 @@
 # Workshop: Trust, but verify your coding agent (60 min)
 
+> Status: designed from the harness loop, not yet run with an external team. I teach hands-on AI sessions regularly. This specific format is new.
+
 A hands-on session for an engineering team that already uses Codex, or is about to roll it out.
 By the end, each pair has measured one change to their own setup, with a receipt.
 

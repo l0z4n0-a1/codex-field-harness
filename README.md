@@ -6,7 +6,9 @@ This repository is the evaluation harness I use on my own Codex CLI setup. It ho
 
 It started with a simple problem. I had 1,000+ Codex sessions, 7 role profiles, plugins, skills and AGENTS.md files spread across dozens of repositories, and no honest answer to *"is this setup actually better, or does it just feel better?"*
 
-> Português: [README.pt-BR.md](README.pt-BR.md) · Workshop kit: [workshop/](workshop/)
+**What this is, plainly:** I built it in one day (2026-09-25) inside my own Codex sessions. So far it holds 11 real model runs. The tests check the harness itself (routing, receipts, gates), not Codex quality. It's a measuring instrument with one documented catch, not a benchmark result yet.
+
+> Português: [README.pt-BR.md](README.pt-BR.md) · Workshop design: [workshop/](workshop/)
 
 ---
 
@@ -62,6 +64,21 @@ What I teach from this: **eloquence is not evidence.** Before a team argues abou
 
 ## Results so far
 
+Every model run the harness has recorded (gpt-6-sol, Codex CLI):
+
+| Run | Effort | Input tokens | Output tokens |
+|---|---|---|---|
+| baseline-e02 | high | 51,656 | 692 |
+| h07-focused (E02 pair) | high / medium | 52,085 / 52,019 | 672 / 596 |
+| readonly-canary / workspace-canary | high | 34,034 / 34,711 | 278 / 328 |
+| e03-focused-canary (**rejected**) | high | 156,342 | 1,332 |
+| e03-actor-aware-v2-canary | high | 35,259 | 897 |
+| e04 canaries (v1, contract v2) | high | 35,831 / 34,181 | 952 / 589 |
+| e08 canaries (v1, v1.1) | high | 34,014 / 33,987 | 429 / 313 |
+
+The high/medium pair cost almost the same and wasn't scored for quality, so it proves nothing about effort. The rejected E03 run used 4–5× the input of every other run, and the trace didn't back its claims.
+
+
 - 27 harness tests pass (18 subtests). 18 structural negative controls are detected as failures, as the changelog records. Gates E01, E02 and E05 pass.
 - An E02 pair (high vs medium reasoning effort) ran. **No route was promoted.** The sample is too small to justify it.
 - 7 candidate releases are recorded with hashes. Rollback was rehearsed on an isolated copy (118 change records).
@@ -95,7 +112,7 @@ Things I'd want as a Codex power user, written as field feedback:
 4. Change **one** thing (AGENTS.md, a profile, effort, a skill) and re-run the same case.
 5. Write the receipt. Promote only if the gate says so.
 
-The workshop kit in [`workshop/`](workshop/) turns these steps into a 60-minute hands-on session for an engineering team.
+[`workshop/`](workshop/) turns these steps into a 60-minute hands-on session for an engineering team. It's a design I haven't run with an external team yet.
 
 ## About
 
