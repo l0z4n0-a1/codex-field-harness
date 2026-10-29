@@ -19,7 +19,7 @@ By the end, each pair has measured one change to their own setup, with a receipt
 - Never let "it feels faster" end a discussion. Ask for the receipt.
 - If a pair's change made things worse, celebrate it. It's the cheapest lesson of the day.
 - Permissions: run the session with `harness-readonly` first. A prompt doesn't grant permission.
-- Language: I run this in Portuguese, English or Spanish. Slides are optional; the terminal is the slide.
+- Language: I run this in Portuguese or English. Slides are optional; the terminal is the slide.
 
 ## Take-home
 - `harness/` as a starting point.

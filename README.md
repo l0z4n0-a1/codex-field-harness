@@ -58,9 +58,9 @@ What changed:
 2. The saved canary was re-run through the stricter gate. It now **also fails structurally**, and that failure is kept as a permanent negative control.
 3. The candidate release was **not promoted**. Seven routes stayed on baseline.
 
-The lesson I teach from this: **eloquence is not evidence.** If your team can't tell "the agent did it" from "the agent said it did it", you don't have an adoption problem. You have a measurement problem.
+What I teach from this: **eloquence is not evidence.** Before a team argues about adoption, it needs a way to tell "the agent did it" from "the agent said it did it".
 
-## Results so far, honestly
+## Results so far
 
 - 27 harness tests pass (18 subtests). 18 structural negative controls are detected as failures, as the changelog records. Gates E01, E02 and E05 pass.
 - An E02 pair (high vs medium reasoning effort) ran. **No route was promoted.** The sample is too small to justify it.
@@ -68,7 +68,7 @@ The lesson I teach from this: **eloquence is not evidence.** If your team can't 
 - A skill probe found explicit path references for 21 of 26 skills. **That does not prove productive use**, so no skill was disabled.
 - Still pending: human review for E03, E04 and E08, and a longitudinal window of 10 real tasks. **None of this is production validation**, and the harness says so in every release note.
 
-I'd rather publish "configured, not benchmarked" than a number I can't defend.
+Most routes are marked "configured, not benchmarked" because that is what they are.
 
 ## What I learned that I'd tell a Codex customer
 
@@ -76,7 +76,7 @@ I'd rather publish "configured, not benchmarked" than a number I can't defend.
 2. **Start from a baseline you can roll back to.** Snapshot config, profiles and AGENTS.md before changing anything. My first release candidates failed, and the baseline is why that was cheap.
 3. **Deterministic first.** If the answer is countable, count it with code and let the model judge only what needs judgment.
 4. **Keep the global AGENTS.md short.** Mine is a handful of lines: cost-aware, minimal context, verify before integrating. Project-specific rules belong in the project.
-5. **Promote on evidence, not vibes.** Use three states: *configured*, *benchmarked*, *promoted*. Most of my routes are honestly still in the first.
+5. **Use three states: configured, benchmarked, promoted.** Most of my routes are still in the first.
 
 ## Product notes I collected along the way
 
@@ -101,6 +101,6 @@ The workshop kit in [`workshop/`](workshop/) turns these steps into a 60-minute 
 
 I'm **João Lozano**, founder of AIdeas Lab in São Paulo. I build products with Codex and Claude Code every day, including [Sintética](https://sintetica.app), a Codex plugin and ChatGPT app built with the Apps SDK, and I teach teams to do the same.
 
-Internal notes in `harness/` are in Portuguese, the language I work in. The interfaces, schemas and tests are language-neutral.
+Internal notes in `harness/` are in Portuguese, the language I work in, and the changelog has an English version (`harness/CHANGELOG.en.md`). Glossary: route and profile names are Portuguese: `auditoria` = audit, `codigo` = code, `dissenso` = dissent (second opinion), `mecanico` = mechanical/bulk work. **MUSE** and **Persona Foundry** in some fixtures are my own Codex plugins (a UGC agency plugin and a persona builder), used as realistic test targets.
 
 MIT License.
