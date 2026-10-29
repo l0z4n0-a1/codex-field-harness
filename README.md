@@ -99,7 +99,7 @@ The workshop kit in [`workshop/`](workshop/) turns these steps into a 60-minute 
 
 ## About
 
-I'm **João Lozano**, founder of AIdeas Lab in São Paulo. I build products with Codex and Claude Code every day, including [Sintética](https://sintetica.app), a Codex plugin and ChatGPT app built with the Apps SDK, and I teach teams to do the same.
+I'm **João Lozano**, founder of AIdeas Lab in São Paulo. I build products with Codex and Claude Code every day, including [Sintética](https://sintetica.app), a Codex plugin and ChatGPT app built with the Apps SDK, and I teach people to do the same.
 
 Internal notes in `harness/` are in Portuguese, the language I work in, and the changelog has an English version (`harness/CHANGELOG.en.md`). Glossary: route and profile names are Portuguese: `auditoria` = audit, `codigo` = code, `dissenso` = dissent (second opinion), `mecanico` = mechanical/bulk work. **MUSE** and **Persona Foundry** in some fixtures are my own Codex plugins (a UGC agency plugin and a persona builder), used as realistic test targets.
 
